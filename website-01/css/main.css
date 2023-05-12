@@ -1,0 +1,26 @@
+.navbar-nav .nav-link:hover {
+  background-color: #6f42c1;
+  color: white;
+  border-radius: 5%;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  border-style: solid;
+  border-color: #6f42c1;
+  border-width: 2px;
+  border-radius: 5%;
+}
+
+.nav-search .btn {
+  color: #8a5edc;
+  border-color: #8a5edc;
+}
+.nav-search .btn:hover {
+  background-color: #6f42c1;
+  color: #ffffff;
+}
+
+.nav-search {
+  position: absolute;
+  right: 5%;
+}/*# sourceMappingURL=main.css.map */
