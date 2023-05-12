@@ -1,0 +1,25 @@
+.navbar-nav{
+.nav-link{
+    &:hover{
+        background-color: $main-purple;
+        color: white;
+        border-radius: 5%;
+    }
+}
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    border-style: solid;
+    border-color: $main-purple;
+    border-width: 2px;
+    border-radius: 5%;
+}
+.nav-search{
+    .btn{
+        color: $light-purp;
+        border-color: $light-purp;
+        &:hover{
+            background-color: $main-purple;
+            color: #ffffff;
+        }
+    }
+}
