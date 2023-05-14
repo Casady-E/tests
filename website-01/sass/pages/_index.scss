@@ -27,13 +27,13 @@
 .cover-container {
   max-width: 42em;
 }
-/*
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
 
-/* Carousel base class */
 .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 20vh;
+    .carousel-inner{
+      border-radius: 2.5%;
+      box-shadow: 2rem 2rem 3rem rgba(#000000, .5);
+    }
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -46,12 +46,9 @@
     height: 32rem;
   }
   
-
-  
-  /* MARKETING CONTENT
-  -------------------------------------------------- */
-  
-  /* Center align the text within the three columns below the carousel */
+  .marketing{
+    margin-bottom: 20vh;
+  }
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -62,8 +59,15 @@
     margin-left: .75rem;
   }
   /* rtl:end:ignore */
-  
-  
+  .marketing .rounded-circle{
+    /*box-shadow: 0 1rem 2rem rgba(#000000, .3)*/
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.4);
+    margin-bottom: 5vh;
+  }
+  .marketing-text{
+    margin-bottom: 5vh;
+  }
+
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
@@ -74,15 +78,5 @@
       font-size: 1.25rem;
       line-height: 1.4;
     }
-  
-    .featurette-heading {
-      font-size: 50px;
-    }
   }
-  
-  @media (min-width: 62em) {
-    .featurette-heading {
-      margin-top: 7rem;
-    }
-}
 
