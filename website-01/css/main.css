@@ -2,6 +2,9 @@
   margin-top: 12vh;
 }
 
+/*@include breakpoint(small){
+    padding: 5vh;
+  }*/
 .navbar {
   position: fixed;
   top: 0;
@@ -22,27 +25,25 @@
   top: 0;
   width: 100%;
 }
+.navbar .navbar-nav .nav-link {
+  font-size: 1.25em;
+}
 .navbar .navbar-nav .nav-link:hover {
-  background-color: #6f42c1;
-  color: white;
-  border-radius: 5%;
+  color: #ff815b;
 }
 .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show {
-  border-style: solid;
-  border-color: #6f42c1;
-  border-width: 2px;
-  border-radius: 5%;
+  color: #ff815b;
 }
 .navbar .nav-search {
   position: absolute;
   right: 5%;
 }
 .navbar .nav-search .btn {
-  color: #8a5edc;
-  border-color: #8a5edc;
+  color: #000000;
+  border-color: #ff815b;
 }
 .navbar .nav-search .btn:hover {
-  background-color: #6f42c1;
+  background-color: #ff815b;
   color: #ffffff;
 }
 
